@@ -1,0 +1,50 @@
+body {
+  
+  
+  background-color: rgb(247, 206, 234);
+  color: rgb(238, 171, 197);
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+table , td {
+    border: 4px groove rgb(207, 199, 199);
+    border-radius: 20px;
+    background-color: lightcoral;
+  }
+
+td {
+    background-color: honeydew;
+    padding: 30px;
+    font-size: 40px;
+}
+
+th {
+ 
+    border: 10px groove rgb(207, 199, 199);
+    font-size: 50px;
+    padding: 60px;
+    background-color: rgb(184, 163, 201);
+  }
+table {
+    min-width: 600px;
+    padding: 40px;
+}
+
+.tab {
+
+  margin: auto;
+  width: 40%;
+  padding: 20px;
+}
+
+td:hover {
+  background-color: lightgray;
+}
+#ans {
+
+  background-color: lightgreen;
+}
+#ans:hover {
+
+  background-color: rgb(71, 194, 118);
+}
